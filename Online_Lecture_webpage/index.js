@@ -1,3 +1,7 @@
+function becomeMember(){
+    document.querySelector(".main-nav").style.display="none"
+} 
+
 /*var BreakTime=[]
 var Round=1
 
@@ -22,36 +26,24 @@ console.log(counter)
 for (var i=1; i<=10; i++){
     console.log(i)
     
-}*/
+}
 
 var Mylist=[13,23,12,45,22,48,66,100];
 
-function printeven(list){
+function printodd(list){
+    console.log("the even number is:")
     for(var i=0;i<list.length;i++){
         if(list[i]%2==0){
             console.log(list[i])
         }
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function printeven(list){
-    for(var i=0;i<list.length;i++){
-        if(list[i]%2 == 0){
-            console.log(list[i]);
+    console.log("the odd number is:")
+    for(var j=0;j<list.length;j++){
+        if(list[j]%2!==0){
+            console.log(list[j])
         }
     }
 }
-printeven(Mylist)
+printodd(Mylist)
+
+document.getElementById("Member-btn").style.boxShadow="10px 10px 30px #000"*/

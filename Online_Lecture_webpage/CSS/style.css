@@ -6,7 +6,7 @@ body {
 /* my comments*/
 .main-nav {
     padding: 10px;
-    width: 550px;
+    width: 650px;
     /* position: fixed;
     width: 100%;
     z-index: 1;*/
@@ -20,6 +20,9 @@ header {
     background-color: #1ecccc;
     box-shadow: 0px 10px 50px#006400;
 }
+header svg:hover{
+    cursor: pointer;
+}
 .my-logo{
     margin-left: 5%;
    /* margin-right: 700px;*/
@@ -31,6 +34,7 @@ header {
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
+    
 }
 
 .main-nav a:hover{
@@ -58,7 +62,9 @@ header {
     width: 40%;
     border-radius: 20px 20px 0px 0px ;
 }
-
+#selected{
+    color: #41ad45;
+}
 .product-card {
     background-color: #e9e6f0;
     border-radius: 20px 20px 0px 0px;
